@@ -53,13 +53,13 @@ public class Tema{
 
 	public static String donatiiLimitaDeNumar(int a, int b){
 		String succes="Succes";
-		int totalDonatii=0;
+		int totalDonatiii=0;
 		Random random = new Random();
 		int i=1;
 		while(i<=b){
-			if(totalDonatii<=a){
-				totalDonatii= totalDonatii + (random.nextInt(9999)+1);
-				System.out.println(totalDonatii);
+			if(totalDonatiii<=a){
+				totalDonatiii= totalDonatiii + (random.nextInt(9999)+1);
+				System.out.println(totalDonatiii);
 			}
 			i++;
 		}
