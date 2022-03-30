@@ -1,3 +1,5 @@
+package ro.fasttrackit.teme;
+
 import jdk.swing.interop.SwingInterOpUtils;
 
 import java.util.Random;
